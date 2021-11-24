@@ -2,7 +2,7 @@
 
 This is mark11 project of the levelZero of the bootcamp. This website lets you know if the birthdate is lucky or not.
 
-Link: https://neog11-shubham.netlify.app/
+Link: https://luckybirthday-shubham-neog.netlify.app/
 
 ## Features
 
