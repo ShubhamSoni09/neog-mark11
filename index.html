@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome Downloaded -->
+    <link rel="stylesheet" href="all.min.css">
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>Lucky Birthday</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Is your birthday Lucky?</h1>
+      <p class="github"><a href="https://github.com/ShubhamSoni09/neog-mark11" target="_blank">GitHub Repo</a></p>	
+    </header>
+
+    <main>
+      <p class="privacy">We won't store your personal details.<i class="fa fa-times"></i></p>
+
+      <form id="form">
+        <div class="bdate">
+          <p>Enter your birthdate(only digits)</p>
+          <input type="date" id="input-date" required />
+        </div>
+
+        <div class="lucky">
+          <p>Enter your lucky number</p>
+          <input type="number" id="input-lucky" min="0" required />
+        </div>
+
+        <button type="submit">Check</button>
+      </form>
+
+      <div class="happy-animation" hidden>
+        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_18ApyG.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </div>
+
+      <div class="sad-animation" hidden>
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_j2JmsU.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </div>
+
+      <h3 id="result"></h3>
+    </main>
+
+    <footer>
+      <a href="https://shubham-soni-portfolio.netlify.app" target="_blank">Shubham Soni</a>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

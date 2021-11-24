@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+	--background: #fcfbe0;
+	--card: #ffa704;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	margin: 1rem;
+	background-color: var(--background);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    margin: 0.5rem;
+}
+
+main {
+	margin: auto;
+	max-width: 800px;
+	padding: 2rem;
+	border-radius: 0.2rem;
+	border: 1px solid rgb(104, 104, 104);
+	background-color: var(--card);
+}
+
+.privacy {
+	background-color: var(--background);
+}
+
+.privacy i {
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+button{
+	border-radius: 0.2rem;
+	border: 1px solid rgb(104, 104, 104);
+	width: 100%;
+	margin: 1rem auto;
+	padding: 0.5rem;
+	font-size: 1rem;
+}
+
+.bdate, .lucky {
+	margin: 1rem auto;
+}
+
+input, .privacy, #result  {
+	font-size: 0.8rem;
+	margin: 0.5rem 0;
+	padding: 0.35rem;
+	border-radius: 0.2rem;
+	width: 100%;
+	outline: none;
+	border: 1px solid rgb(104, 104, 104);
+}
+
+button {
+	background-color: var(--background);
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	width: 40%;
+}
+
+lottie-player {
+	margin: auto;
+}
+
+#result {
+	display: none;
+	font-size: 1rem;
+}
+
+footer {
+	margin-top: auto;
+	color: black;
+	text-align: center;
+}
+
+footer a, .github a {
+	color: initial;
+	margin: 0.5rem;
+}
